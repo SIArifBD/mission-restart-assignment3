@@ -3,9 +3,9 @@ import { Link } from 'react-router';
 
 const Footer = () => {
     const links = <>
-        <Link to='/'><li><a>Home</a></li></Link>
-        <Link to='/apps'><li><a>Apps</a></li></Link>
-        <Link to='/installation'><li><a>Installation</a></li></Link>
+        <Link to='/'>Home</Link>
+        <Link to='/apps'>Apps</Link>
+        <Link to='/installation'>Installation</Link>
     </>
     return (
         <footer className="footer footer-horizontal footer-center bg-gray-400 text-base-content rounded p-10">

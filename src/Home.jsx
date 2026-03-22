@@ -10,7 +10,7 @@ function Home() {
     <>
       <HeroBanner></HeroBanner>
       <Facts></Facts>
-      <TopRatedApps data={data}></TopRatedApps>
+      <TopRatedApps key={data.id} data={data}></TopRatedApps>
     </>
   )
 }

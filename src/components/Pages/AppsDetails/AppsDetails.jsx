@@ -2,6 +2,16 @@ import React from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import { FaDownload, FaStar } from "react-icons/fa6";
 import { MdRateReview } from "react-icons/md";
+import {
+    BarChart,
+    Bar,
+    XAxis,
+    YAxis,
+    CartesianGrid,
+    Tooltip,
+    Legend,
+    ResponsiveContainer,
+} from "recharts";
 
 const AppsDetails = () => {
     const { id } = useParams();
@@ -9,7 +19,7 @@ const AppsDetails = () => {
 
     const singleApp = data.find(app => app.id === parseInt(id))
 
-    const { image, title, companyName, downloads, description, ratingAvg, reviews, size } = singleApp;
+    const { image, title, companyName, downloads, description, ratingAvg, reviews, size, ratings } = singleApp;
     return (
         <main className='min-h-screen'>
             <div className='w-11/12 mx-auto space-y-5 py-20'>
@@ -51,8 +61,22 @@ const AppsDetails = () => {
                     </div>
                 </div>
                 <div className='divider'></div>
-                <div>
-                    <h2>Ratings</h2>
+                <div className='w-full h-[400px]'>
+                    <h2 className='text-3xl font-bold mb-6'>Ratings</h2>
+                    <ResponsiveContainer width="100%" height="100%">
+                        <BarChart
+                            data={[...ratings].reverse()}
+                            layout="vertical"
+                            margin={{ top: 10, right: 30, left: 20, bottom: 10 }}
+                        >
+                            <CartesianGrid strokeDasharray="3 3" />
+                            <XAxis type="number" />
+                            <YAxis dataKey="name" type="category" />
+                            <Tooltip />
+                            <Legend />
+                            <Bar dataKey="count" fill="#10B981" radius={[0, 6, 6, 0]} />
+                        </BarChart>
+                    </ResponsiveContainer>
                 </div>
                 <div className='divider'></div>
                 <div>

@@ -20,11 +20,11 @@ const HeroBanner = () => {
                     </p>
                 </div>
                 <div className='flex flex-wrap justify-center gap-4 my-5'>
-                    <a href="https://play.google.com/store/games" target='_blank' referrerpolicy="no-referrer" className='btn btn-xl  hover:shadow-xl rounded-xl'>
+                    <a href="https://play.google.com/store/games" target='_blank' referrerPolicy="no-referrer" className='btn btn-xl  hover:shadow-xl rounded-xl'>
                         <FaGooglePlay/>
                         <span>Google Play</span>
                     </a>
-                    <a href="https://www.apple.com/app-store/" target='_blank' referrerpolicy="no-referrer" className='btn btn-xl  hover:shadow-xl rounded-xl'>
+                    <a href="https://www.apple.com/app-store/" target='_blank' referrerPolicy="no-referrer" className='btn btn-xl  hover:shadow-xl rounded-xl'>
                         <IoLogoAppleAppstore/>
                         <span>Apple Store</span>
                     </a>

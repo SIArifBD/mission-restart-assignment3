@@ -1,14 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router';
 import logo from '../../../assets/logo.png';
-import { FaHome, FaAppStoreIos,FaCloudDownloadAlt,FaGithub } from "react-icons/fa";
+import { FaHome, FaAppStoreIos, FaCloudDownloadAlt, FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
-    const links = <>
-        <Link to='/'><li><a><FaHome />Home</a></li></Link>
-        <Link to='/apps'><li><a><FaAppStoreIos />Apps</a></li></Link>
-        <Link to='/installation'><li><a><FaCloudDownloadAlt />Installation</a></li></Link>
-    </>
     return (
         <div className="navbar bg-base-100 shadow-sm">
             <div className="navbar-start">
@@ -19,7 +14,9 @@ const Navbar = () => {
                     <ul
                         tabIndex="-1"
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        {links}
+                        <li><Link to='/'><FaHome /> Home</Link></li>
+                        <li><Link to='/apps'><FaAppStoreIos /> Apps</Link></li>
+                        <li><Link to='/installation'><FaCloudDownloadAlt /> Installation</Link></li>
                     </ul>
                 </div>
                 <div className='btn btn-ghost text-xl'>
@@ -30,7 +27,9 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 [&_a]:hover:underline">
-                    {links}
+                    <li><Link to='/'><FaHome /> Home</Link></li>
+                    <li><Link to='/apps'><FaAppStoreIos /> Apps</Link></li>
+                    <li><Link to='/installation'><FaCloudDownloadAlt /> Installation</Link></li>
                 </ul>
             </div>
             <div className="navbar-end">
