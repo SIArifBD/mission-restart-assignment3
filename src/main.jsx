@@ -4,6 +4,14 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router';
 import Layout from './Layout/Layout';
 import Home from './Home';
+import Apps from './components/Pages/Apps/Apps';
+import AppsDetails from './components/Pages/AppsDetails/AppsDetails';
+
+const loadApps = async () => {
+  const res = await fetch('/dummyData.json')
+  const data = await res.json()
+  return data
+}
 
 const router = createBrowserRouter([
   {
@@ -12,8 +20,18 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        loader: (() => fetch("dummyData.json")),
+        loader: loadApps,
         Component: Home
+      },
+      {
+        path: "/apps",
+        loader: loadApps,
+        Component: Apps
+      },
+      {
+        path: "/appsdetails/:id",
+        loader: loadApps,
+        Component: AppsDetails
       }
     ]
   }
