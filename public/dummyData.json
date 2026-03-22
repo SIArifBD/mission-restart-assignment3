@@ -1,0 +1,363 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800",
+    "title": "ChatConnect",
+    "companyName": "TechNova Ltd",
+    "id": 1,
+    "description": "A real-time messaging app with modern UI.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 520 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800",
+    "title": "FitTrack Pro",
+    "companyName": "Healthify Inc",
+    "id": 2,
+    "description": "Track your workouts and health goals easily.",
+    "size": 60,
+    "reviews": 980,
+    "ratingAvg": 4.3,
+    "downloads": 42000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 460 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?w=800",
+    "title": "BeatStream",
+    "companyName": "SoundWave",
+    "id": 3,
+    "description": "Stream unlimited music anytime.",
+    "size": 70,
+    "reviews": 2100,
+    "ratingAvg": 4.7,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1200 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800",
+    "title": "FoodieGo",
+    "companyName": "QuickEats",
+    "id": 4,
+    "description": "Order your favorite meals instantly.",
+    "size": 55,
+    "reviews": 1500,
+    "ratingAvg": 4.4,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 650 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "title": "TripPlanner",
+    "companyName": "WanderTech",
+    "id": 5,
+    "description": "Plan your trips with smart suggestions.",
+    "size": 80,
+    "reviews": 900,
+    "ratingAvg": 4.2,
+    "downloads": 35000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 230 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1556740749-887f6717d7e4?w=800",
+    "title": "MoneyMate",
+    "companyName": "FinCore",
+    "id": 6,
+    "description": "Manage your finances smartly.",
+    "size": 40,
+    "reviews": 1100,
+    "ratingAvg": 4.6,
+    "downloads": 48000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800",
+    "title": "Learnify",
+    "companyName": "EduTech",
+    "id": 7,
+    "description": "Learn new skills online.",
+    "size": 65,
+    "reviews": 1300,
+    "ratingAvg": 4.5,
+    "downloads": 70000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 580 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1515168833906-d2a3b82b302a?w=800",
+    "title": "ShopEasy",
+    "companyName": "MarketHub",
+    "id": 8,
+    "description": "Shop everything in one place.",
+    "size": 75,
+    "reviews": 1800,
+    "ratingAvg": 4.4,
+    "downloads": 85000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 710 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800",
+    "title": "WeatherNow",
+    "companyName": "SkyTech",
+    "id": 9,
+    "description": "Accurate weather forecasts.",
+    "size": 35,
+    "reviews": 800,
+    "ratingAvg": 4.1,
+    "downloads": 30000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 150 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800",
+    "title": "GameZone",
+    "companyName": "PlayCore",
+    "id": 10,
+    "description": "Play exciting games anytime.",
+    "size": 120,
+    "reviews": 2500,
+    "ratingAvg": 4.8,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1430 }
+    ]
+  },
+
+  {
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800",
+    "title": "TaskMaster",
+    "companyName": "Productive Inc",
+    "id": 11,
+    "description": "Boost productivity and manage tasks.",
+    "size": 50,
+    "reviews": 700,
+    "ratingAvg": 4.2,
+    "downloads": 28000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 210 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1487014679447-9f8336841d58?w=800",
+    "title": "NoteFlow",
+    "companyName": "WriteSoft",
+    "id": 12,
+    "description": "Take notes seamlessly.",
+    "size": 30,
+    "reviews": 600,
+    "ratingAvg": 4.3,
+    "downloads": 22000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 210 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800",
+    "title": "CodeLab",
+    "companyName": "DevWorks",
+    "id": 13,
+    "description": "Practice coding with real challenges.",
+    "size": 90,
+    "reviews": 1400,
+    "ratingAvg": 4.6,
+    "downloads": 65000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 610 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1526947425960-945c6e72858f?w=800",
+    "title": "PhotoSnap",
+    "companyName": "PixelSoft",
+    "id": 14,
+    "description": "Capture and edit stunning photos.",
+    "size": 85,
+    "reviews": 1700,
+    "ratingAvg": 4.5,
+    "downloads": 78000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 710 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?w=800",
+    "title": "PodcastHub",
+    "companyName": "AudioWorld",
+    "id": 15,
+    "description": "Listen to trending podcasts.",
+    "size": 65,
+    "reviews": 950,
+    "ratingAvg": 4.4,
+    "downloads": 40000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 350 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800",
+    "title": "NewsFlash",
+    "companyName": "DailyPress",
+    "id": 16,
+    "description": "Stay updated with latest news.",
+    "size": 45,
+    "reviews": 800,
+    "ratingAvg": 4.1,
+    "downloads": 30000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 190 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?w=800",
+    "title": "HomeDesign",
+    "companyName": "DecoSoft",
+    "id": 17,
+    "description": "Design your dream home.",
+    "size": 70,
+    "reviews": 1100,
+    "ratingAvg": 4.3,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 380 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800",
+    "title": "LanguagePro",
+    "companyName": "LinguaTech",
+    "id": 18,
+    "description": "Learn new languages fast.",
+    "size": 55,
+    "reviews": 1000,
+    "ratingAvg": 4.6,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 410 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800",
+    "title": "StudyBuddy",
+    "companyName": "EduBoost",
+    "id": 19,
+    "description": "Your perfect study companion.",
+    "size": 60,
+    "reviews": 900,
+    "ratingAvg": 4.4,
+    "downloads": 45000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 290 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?w=800",
+    "title": "SleepWell",
+    "companyName": "WellnessLab",
+    "id": 20,
+    "description": "Improve your sleep quality.",
+    "size": 35,
+    "reviews": 500,
+    "ratingAvg": 4.2,
+    "downloads": 20000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 160 }
+    ]
+  }
+]
