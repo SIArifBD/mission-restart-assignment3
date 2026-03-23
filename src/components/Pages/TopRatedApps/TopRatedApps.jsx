@@ -17,7 +17,7 @@ const TopRatedApps = ({data}) => {
                             <figure>
                                 <img className='w-full h-52 object-cover rounded-xl' src={app.image} alt="" />
                             </figure>
-                            <p>{app.description}</p>
+                            <p>{app.title}</p>
                             <div className='flex justify-between'>
                                 <div className='badge badge-soft badge-success '>
                                     <FaDownload />

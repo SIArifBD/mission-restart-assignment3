@@ -6,6 +6,8 @@ import Layout from './Layout/Layout';
 import Home from './Home';
 import Apps from './components/Pages/Apps/Apps';
 import AppsDetails from './components/Pages/AppsDetails/AppsDetails';
+import InstalledApps from './components/Pages/InstalledApps/InstalledApps';
+import ErrorPage from './components/Shared/ErrorPage/ErrorPage';
 
 const loadApps = async () => {
   const res = await fetch('/dummyData.json')
@@ -17,6 +19,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     Component: Layout,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         index: true,
@@ -32,6 +35,11 @@ const router = createBrowserRouter([
         path: "/appsdetails/:id",
         loader: loadApps,
         Component: AppsDetails
+      },
+      {
+        path: "/installation",
+        loader: loadApps,
+        Component: InstalledApps
       }
     ]
   }

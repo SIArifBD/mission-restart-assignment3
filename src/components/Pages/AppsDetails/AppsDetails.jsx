@@ -12,6 +12,11 @@ import {
     Legend,
     ResponsiveContainer,
 } from "recharts";
+import { addToStoreLocalDB } from '../../../utility/addToLocalDB';
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+
+const MySwal = withReactContent(Swal)
 
 const AppsDetails = () => {
     const { id } = useParams();
@@ -20,6 +25,16 @@ const AppsDetails = () => {
     const singleApp = data.find(app => app.id === parseInt(id))
 
     const { image, title, companyName, downloads, description, ratingAvg, reviews, size, ratings } = singleApp;
+
+    const handleInstallApp = (id) => {
+        addToStoreLocalDB(id);
+        // Sweet Alert
+        MySwal.fire({
+            title: "Thanks for",
+            text: "Install this apps",
+            icon: "success"
+        })
+    }
     return (
         <main className='min-h-screen'>
             <div className='w-11/12 mx-auto space-y-5 py-20'>
@@ -57,7 +72,7 @@ const AppsDetails = () => {
                                 </div>
                             </div>
                         </div>
-                        <button className='btn shadow-xl hover:shadow-2xl btn-xl skeleton bg-success btn-success text-white'>Install Now ({size}MB)</button>
+                        <button onClick={() => handleInstallApp(id)} className='btn shadow-xl hover:shadow-2xl btn-xl skeleton bg-success btn-success text-white'>Install Now ({size}MB)</button>
                     </div>
                 </div>
                 <div className='divider'></div>
