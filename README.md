@@ -24,5 +24,5 @@ A modern and user-friendly web application showcasing a collection of apps with 
 https://sage-paletas-7736ce.netlify.app/
 
 ## Installation
-npm install
-npm run dev
+- npm install
+- npm run dev
