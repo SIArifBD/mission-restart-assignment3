@@ -1,16 +1,28 @@
-<<<<<<< HEAD
-# mission-restart-assignment3
-=======
-# React + Vite
+# Tech City - Application Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+A modern and user-friendly web application showcasing a collection of apps with detailed insights, ratings, and download statistics. It features live search functionality, interactive UI components, and a smooth browsing experience, allowing users to easily explore and discover applications.
 
-Currently, two official plugins are available:
+## Features
+- 🔍 Live search functionality (case-insensitive)
+- 📊 App ratings visualization using charts
+- 📱 Responsive design for all devices
+- ⚡ Fast and smooth navigation
+- 🎯 Detailed app information page
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- React.js
+- Tailwind CSS
+- DaisyUI
+- React Router
+- SweetAlert2
+- React Icons
+- Recharts
+- Local Storage
 
-## Expanding the ESLint configuration
+## Live Link
+https://sage-paletas-7736ce.netlify.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 1be1b5c (Initial commit)
+## Installation
+npm install
+npm run dev
