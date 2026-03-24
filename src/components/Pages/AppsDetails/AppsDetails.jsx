@@ -93,9 +93,9 @@ const AppsDetails = () => {
                         </BarChart>
                     </ResponsiveContainer>
                 </div>
-                <div className='divider'></div>
+                <div className='divider mt-20'></div>
                 <div>
-                    <h2>Description</h2>
+                    <h2 className='text-3xl font-bold mb-6'>Description</h2>
                     <p className='text-justify space-y-3 opacity-60'>{description}</p>
                 </div>
             </div>

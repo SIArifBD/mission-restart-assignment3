@@ -8,7 +8,7 @@ const Footer = () => {
         <Link to='/installation'>Installation</Link>
     </>
     return (
-        <footer className="footer footer-horizontal footer-center bg-gray-400 text-base-content rounded p-10">
+        <footer className="footer footer-horizontal footer-center bg-primary text-white rounded p-10">
             <nav className="grid grid-flow-col gap-8">
                 {links}
             </nav>

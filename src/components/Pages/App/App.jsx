@@ -16,7 +16,7 @@ const App = ({ app }) => {
                         <FaDownload />
                         <p>{downloads}</p>
                     </div>
-                    <div className='badge badge-soft badge-secondary'>
+                    <div className='badge badge-soft badge-primary'>
                         <FaStar />
                         <p>{ratingAvg}</p>
                     </div>

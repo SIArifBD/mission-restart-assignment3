@@ -63,7 +63,7 @@ const InstalledApps = () => {
                                 </div>
                                 <div className='flex items-center gap-3 text-xs mt-1'>
                                     <span className='flex items-center gap-1 text-success'><FaDownload /> {installApp.download}</span>
-                                    <span className='flex items-center gap-1 text-secondary'><FaStar /> {installApp.ratingAvg}</span>
+                                    <span className='flex items-center gap-1 text-primary'><FaStar /> {installApp.ratingAvg}</span>
                                     <span className='text-xs text-gray-500'>{installApp.size} MB</span>
                                 </div>
                             </div>

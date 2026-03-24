@@ -13,7 +13,7 @@ const TopRatedApps = ({data}) => {
                 </div>
                 <div className='w-11/12 mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 my-10 gap-5'>
                     {
-                        topRatedApps.map(app => <div key={app.id} className='card shadow-lg cursor-pointer  bg-white hover:bg-base-200 hover:-translate-y-2 transition-all duration-200   p-4 gap-4'>
+                        topRatedApps.map(app => <Link to={`/appsdetails/${app.id}`} key={app.id} className='card shadow-lg cursor-pointer  bg-white hover:bg-base-200 hover:-translate-y-2 transition-all duration-200   p-4 gap-4'>
                             <figure>
                                 <img className='w-full h-52 object-cover rounded-xl' src={app.image} alt="" />
                             </figure>
@@ -23,12 +23,12 @@ const TopRatedApps = ({data}) => {
                                     <FaDownload />
                                     <p>{app.downloads}</p>
                                 </div>
-                                <div className='badge badge-soft badge-secondary'>
+                                <div className='badge badge-soft badge-primary'>
                                     <FaStar />
                                     <p>{app.ratingAvg}</p>
                                 </div>
                             </div>
-                        </div>)
+                        </Link>)
                     }
                 </div>
                 <div className='flex justify-center'>
